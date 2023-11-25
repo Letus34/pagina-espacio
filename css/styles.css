@@ -1,0 +1,44 @@
+body{
+    background-image: url(../starter-code/assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;   
+}
+#menu li:nth-child(1){
+    border-bottom: 2px solid white; 
+}
+/* INICIO CENTRO */
+#content{
+    display: flex;
+}
+#content #izquierda{
+    color: white;
+    margin: 12%;
+}
+#izquierda h2{
+    margin-top: 100px;
+    font-size: 25px;    
+    font-weight: 1;
+    color: rgb(131, 127, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#izquierda h1{
+    font-size: 150px;
+    font-weight: 5;
+    margin: 2px 0;
+}
+#izquierda p{
+    margin-top: 30px ;
+   line-height: 30px;
+   font-size: 19px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(103, 104, 131);
+}
+#btnderecha{
+    border-radius: 100%;
+    font-size: 30px;
+    margin-top: 400px;
+    padding: 120px 80px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
